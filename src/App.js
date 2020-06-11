@@ -14,22 +14,11 @@ function App() {
       <img src="/first.jpg" className="firstphoto"></img>
       <br />
       <img src={myWonderfulImage} />
-     
-    </div>
-   
-  );
-
-  return(
     
     <video width={320} height={240} controls>  
             <source src="ok.mp4" type="video/mp4" /> 
           </video> 
-    
-   
-      
-    
-  );
- 
+    </div>);
 }
 
 
